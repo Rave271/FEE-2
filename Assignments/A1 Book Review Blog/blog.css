@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.homebody {
+    background-image: url("images/homebody.jpg");
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    box-shadow: inset 0 0 0px 1px #f5f4f091;
+    padding: 25px;
+    background-repeat: no-repeat;
+}
+.hometext{
+    color: #f5f4f091;
+    font-family: "Monsieur La Doulaise", cursive;
+    font-size: 50px;
+    text-align: center;
+}
+.contianerforbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button1{
+    background-color: #f5f4f091;
+    font-family: "Monsieur La Doulaise", cursive;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+}
+.button1 a{
+    text-decoration: none;
+    color: black;
+}
+/* Selection.html
+ */
+
+ .selectionbody{
+    background-image: url("images/selectionbody.jpg");
+    z-index: -1;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+ }
+ .centercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .centercontainer h1{
+    color: #f5f4f091;
+    font-family: "Monsieur La Doulaise", cursive;
+    font-size: 60px;
+    
+ }
+ .centercontainer p{
+    color: #f5f4f091;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+ }
+ .bookimg{
+    width: 150px;
+    height: auto;
+ }
+ /* godfather */
+ .godfatherbody{
+    background-image: url("images/godfatherbg.jpg");
+    z-index: -1;
+    background-position: center;
+    background-size: 90%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    color: #f5f4f091;
+    background-repeat: no-repeat;
+    background-color: black;
+ }
+ .para{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+ }
+ .button2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+ }
+
+ .button2 a{
+    text-decoration: none;
+    color: black;
+ }
+
+/* gatsby */
+.gatsbybody{
+    background-image: url("images/g4.jpg");
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    color: #A89272;
+    background-repeat: no-repeat;
+    background-color: black;
+    font-family: "Limelight", sans-serif;
+ }
+.gat{
+    margin-top: 250px;
+}
+.para2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: -20px; 
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 150px;
+ }
+ .button3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #A89272;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+ }
+
+ .button3 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+ }
+ /* forrst */
+ .forrestbody{
+    background-image: url("images/forrestbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Merriweather", serif;
+    color: #0E457E;
+    
+ }
+ .para3{
+    text-align: center;
+    font-family: "Merriweather", serif; 
+       font-size: 20px;
+    position: relative; /* Allows precise positioning */
+    top: -20px; 
+   margin-bottom: 300px;
+ }
+ 
+ .button4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+ }
+
+ .button4 a{
+    text-decoration: none;
+    color: #0E457E;
+    font-weight: bold;
+ }

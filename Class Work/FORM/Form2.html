@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <center>
+        <h1>Application Form</h1>
+        <h2>Enter your details</h2>
+        <hr>
+        <form action="">
+            <label type="date" for="dob">DOB:</label>
+            <input type="date" name="dob" id="dob">
+            <br>
+            <br>
+            <label for="check">Male</label>
+            <input type="checkbox" name="check" id="check">
+            <label for="check">Female</label>
+            <input type="checkbox" name="check" id="check">
+            <label for="check">Others</label>
+            <input type="checkbox" name="check" id="check">
+            <br>
+            <br>
+            <label for="email">Enter Your Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <br>
+            <br>
+            <table>
+                <tr>
+                    <td>
+                        <label for="FN">First Name:</label>
+                        <input type="text" name="FN" id="User" placeholder="Enter your First Name">
+                        <!-- <label for="LN">Middle Name:</label>
+        <input type="text" name="LN" id="User" placeholder="Enter your Last Name"> -->
+                        <label for="LN">Last Name:</label>
+                        <input type="text" name="LN" id="User" placeholder="Enter your Last Name">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                        <br> <label for="FatherN">Father's First Name:</label>
+                        <input type="text" name="FatherN" id="User" placeholder="Enter your First Name">
+                        <label for="FatherLN">Father's Middle Name:</label>
+                        <input type="text" name="FatherLN" id="User" placeholder="Enter your Last Name">
+                    </td>
+                </tr>
+            </table>
+            <br>
+
+            <h3>Address:</h3>
+            <h4>Enter Current Address:</h4>
+            <label for="hnO">Enter House/Flat/Aparment Number:</label>
+            <input type="text" id="User" placeholder="Enter your House/Flat/Aparment Number">
+            <br>
+            <label for="hnO">Enter Sector/Area:</label>
+            <input type="text" id="User" placeholder="Enter your Sector/Area:">
+            <br>
+            <label for="hnO">Enter City & State:</label>
+            <input type="text" id="User" placeholder="Enter City & State:">
+            <br>
+            <h4>Enter Permanent Address:</h4>
+            <input type="radio" value="Same as Current Address" name="Address">Same as Current Address
+            <br>
+            <label for="hnO">Enter House/Flat/Aparment Number:</label>
+            <input type="text" id="User" placeholder="Enter your House/Flat/Aparment Number">
+            <br>
+            <label for="hnO">Enter Sector/Area:</label>
+            <input type="text" id="User" placeholder="Enter your Sector/Area:">
+            <br>
+            <label for="hnO">Enter City & State:</label>
+            <input type="text" id="User" placeholder="Enter City & State:">
+            <br>
+            <br>
+            <label for="Skills">Skills:</label>
+            <br>
+            <input type="checkbox" value="HTML" name="Skills">Html
+            <br>
+            <input type="checkbox" value="CSS" name="Skills">CSS
+            <br>
+            <input type="checkbox" value="JS" name="Skills">JS
+            <br>
+            <input type="checkbox" value="PHP" name="Skills">PHP
+            <br>
+            <input type="checkbox" value="Python" name="Skills">Python
+            <br>
+            <br>
+            <h3>Contact Details:</h3>
+            <select name="Country Code" id="Country">
+                <option value="India">India +91</option>
+                <option value="USA">USA +1</option>
+                <option value="UK">UK +44</option>
+                <option value="Australia">Australia +101</option>
+                <option value="Germany">Germany +49</option>
+            </select>
+            <input type="number" name="Mobile" id="Mobile" placeholder="Enter your Mobile Number">
+            <br>
+            <br>
+            <H3>Describe Yourself</H3>
+            <textarea rows="18" cols="28">Describe Yourself:</textarea>
+            <h3>Upload your resume:</h3>
+            <label for="Resume">Resume:</label>
+            <input type="file" name="Resume" id="Resume">
+            <br>
+            <br>
+            <input type="checkbox" value="I agree to the terms and conditions" name="Terms">I agree to the terms and
+            conditions
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </center>
+</body>
+
+</html>

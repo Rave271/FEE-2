@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="main">
 
 <head>
+    <link rel="stylesheet" href="Form2..css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+    <title>Job Application</title>
 </head>
 
-<body>
-    <center>
-        <h1>Application Form</h1>
-        <h2>Enter your details</h2>
+<body class="body">
+   <section class="heading">
+        <p>Application Form</p>
+        <p>Enter your details</p>
         <hr>
+   </section>
         <form action="">
+            <section class="text">
             <label type="date" for="dob">DOB:</label>
             <input type="date" name="dob" id="dob">
             <br>
@@ -34,8 +37,6 @@
                     <td>
                         <label for="FN">First Name:</label>
                         <input type="text" name="FN" id="User" placeholder="Enter your First Name">
-                        <!-- <label for="LN">Middle Name:</label>
-        <input type="text" name="LN" id="User" placeholder="Enter your Last Name"> -->
                         <label for="LN">Last Name:</label>
                         <input type="text" name="LN" id="User" placeholder="Enter your Last Name">
 
@@ -77,19 +78,18 @@
             <input type="text" id="User" placeholder="Enter City & State:">
             <br>
             <br>
-            <label for="Skills">Skills:</label>
-            <br>
+            <label for="Skills"><h2>Skills:</h2></label>
             <input type="checkbox" value="HTML" name="Skills">Html
-            <br>
+            
             <input type="checkbox" value="CSS" name="Skills">CSS
-            <br>
+            
             <input type="checkbox" value="JS" name="Skills">JS
-            <br>
+            
             <input type="checkbox" value="PHP" name="Skills">PHP
-            <br>
+            
             <input type="checkbox" value="Python" name="Skills">Python
-            <br>
-            <br>
+            
+            
             <h3>Contact Details:</h3>
             <select name="Country Code" id="Country">
                 <option value="India">India +91</option>
@@ -113,8 +113,9 @@
             <br>
             <br>
             <input type="submit" value="Submit">
+            </section>
         </form>
-    </center>
+    </section>
 </body>
 
 </html>

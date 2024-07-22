@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+    nav{
+        padding: 0 2.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: rgb(204, 255, 0);
+        font-size:xxx-large;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    li{
+        margin: 0 50px;
+    }
+    @media(max-width: 768px){
+        nav{
+            display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        list-style-type: none;
+        }
+        ul{
+            display: flex;
+            flex-direction: column;
+           justify-content: space-between;
+        }
+        li{
+            margin: 25px 0;
+        }
+
+    }
+</style>
+
+</head>
+
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <ul href="#">
+            <li href="#">About</li>
+            <li href="#">Product</li>
+            <li href="#">Contact Us</li>
+        </ul>
+        <a href="#">Sign up</a>
+    </nav>
+
+</body>
+
+</html>

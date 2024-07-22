@@ -1,0 +1,100 @@
+<!DOCTYPE html class="main">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Login.css">
+    <title>Job Application</title>
+</head>
+
+<body class="main">
+    <section class="body">
+        <div class="selector">
+    <h1 class="heading">Job Application</h1>
+    <div class="Radiocon">
+    <input type="radio" name="Sel" id="First" checked>Step 1
+    <input type="radio" name="Sel" id="Second">Step 2
+    <input type="radio" name="Sel" id="Third">Step 3
+
+    <form class="A">
+        <h3>Personal Details:</h3>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname"><br>
+        
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <SECTION class="phone">
+        <label for="phone">Phone:</label>
+        <select>
+            <option value="91">+91</option>
+            <option value="92">+92</option>
+        </select>
+        <input type="number" id="phone" name="phone"><br>
+        </SECTION>
+        <button class="next">Next</button>
+    </form>
+       
+    
+    <form class="B">
+        <h3>Academic Details:</h3>
+   
+        <label for="12th">12th Percentage:</label>
+        <input type="number" id="12th" name="12th">%<br>
+        <label for="grad">Graduation:</label>
+
+        <input type="radio" id="g1">Not Graduated<br>
+        <input type="radio" id="g2">Graduated<br>
+        <input type="radio" id="g3">Post Graduated<br>
+        <br>
+        <section class="gradhidden">
+        <label for="GradMarks" >If Graduated,Enter Marks:</label>
+        <input type="number" id="GradMarks" name="GradMarks">%
+    </section>
+        <br>
+    </form>
+    
+    <form class="C">
+        <h3>Job Field</h3>
+        <label>Vacancies:</label>
+        <input type="radio" id="Engine" name="field" value="Engine">Engineering
+        <input type="radio" id="Business" name="field" value="business">Business
+        <input type="radio" id="Design" name="field" value="Design">Design
+
+        <div class="Engineering-tog hide">
+            <select>
+                <option>Jr. Dev</option>
+                <option>Sr. Dev</option>
+                <option>Trainee</option>
+            </select>
+        </div>
+
+        <div class="Business-drop hide">
+            <select>
+                <option>Sr. Executive</option>
+                <option>Manager</option>
+            </select>
+        </div>
+        <div class="Design-drop hide">
+            <select>
+                <option>UI/UX</option>
+                <option>Graphic and Web Designer</option>
+            </select>
+        </div>
+        <br>
+        <button class="Submit">Submit</button>
+
+
+
+    </form>
+    
+</section>  
+</body>
+
+</body>
+
+</html>

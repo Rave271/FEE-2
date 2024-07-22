@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: grey;
+        }
+        section{
+            border: 5px rgb(212, 212, 212) dashed;
+            padding: 1rem;
+
+            text-align: justify;
+        }
+        section p{
+            
+            font-weight: 50;
+            
+
+        }
+        h1{
+            font-size: 5rem;
+            text-align: center;
+            color: white;
+        }
+        /* @media(max-width:520px){
+            section{
+                background-color: rgb(98, 3, 176);
+            }
+        } */
+        @media(orientation:landscape){
+            section {
+                background-color: rgb(164, 235, 0);
+            }
+            section p {
+            color: white;
+            }
+        }
+        @media(orientation:Portrait){
+            section{
+                background-color: rgb(174, 110, 227);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1>Responsive-ness</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nemo repellendus ratione harum optio
+            quas sit quam provident possimus vero deleniti, sint dolorum minima natus corporis pariatur vitae ad
+            blanditiis? Consequuntur, possimus praesentium assumenda repellat quisquam, sapiente impedit ducimus quasi
+            nulla sint necessitatibus recusandae unde magnam vel dignissimos! Porro inventore iusto, eligendi officia
+            similique laboriosam! Sequi similique dolorum alias. Enim, est aliquam? Quidem dolores atque adipisci
+            cumque, illo eum molestias neque nostrum inventore maxime delectus aliquam repudiandae dolorem voluptatibus
+            vitae nesciunt vel ipsam? Veritatis perspiciatis a impedit at ea aliquam natus rem et porro quae! Rem
+            tempora mollitia illum animi nostrum iusto quas, adipisci voluptatum repudiandae dicta cumque sit quis sint
+            totam saepe odio non culpa quaerat? Laboriosam beatae ducimus, error quia provident commodi facilis non
+            perspiciatis atque voluptas minus ab totam alias. Nam, facere! Eaque deleniti commodi vero. Cumque debitis
+            minima repellat ipsa nemo dolor illo eos necessitatibus ipsum?
+
+        </p>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+}
+
+table,
+td {
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+td {
+    height: 50px;
+}
+
+.td1 {
+    background-color: #d6ff38;
+    width: 174px;
+    height: 74px;
+
+}
+
+.td2 {
+    width: 568px;
+    height: 74px;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.Heading {
+    font-size: xxx-large;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.Heading2 {
+    display: block;
+    margin: 0 auto;
+    background-color: #d6ff38;
+    font-size: large;
+    font-weight: 100;
+    padding: 0 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: fit-content;
+}

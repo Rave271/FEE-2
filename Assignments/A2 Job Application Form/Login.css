@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Dosis:wght@200..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+.hide{
+    display: none;
+}
+/* #Enginee:checked ~ .hide .Engine-drop{
+    display: block;
+} */
+#Business:checked~ .Business-drop{
+    display: block;
+}
+
+#Design:checked ~ .Design-drop{
+    display: block;
+}
+#Engine:checked ~ .Engineering-tog {
+    display: block;
+    
+}
+.gradhidden{
+    display: none;
+}
+#g2:checked ~ .gradhidden{
+    display: block;
+}
+.A, .B ,.C{
+    display: none;
+}
+#First:checked ~ .A{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Dosis", sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+#Second:checked ~ .B{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Dosis", sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} 
+#Third:checked ~ .C{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Dosis", sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+
+.bg{
+    background-color: white;
+    
+}
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Dosis:wght@200..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap'); */
+.main{
+ display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    flex-direction: column;
+}
+.body{
+    border:black solid;
+    /* background-color:grey; */
+    /* opacity: 0.5; */
+    background-color: rgba(128, 128, 128, 0.75);
+    z-index: 0;
+    padding: 50px;
+}
+
+.heading{
+    text-align: center;
+    font-family: "Arsenal SC", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.text{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.A label{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Dosis", sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.A input{
+    width: 50%;
+    height: 50%;
+    border: 2px solid black;
+    margin: auto;
+    padding: 10px;
+}
+.A select{
+    width: 25%;
+    height: 50%;
+    border: 2px solid black;
+    margin: auto;
+    padding: 10px;
+}
+
+#First,#Second,#Third{
+    display: inline;
+    font-size: 500px
+    ;
+}
+
+.Radiocon{
+    text-align: center;
+    width: 100%;
+    font-size: ;
+}
+.next,.submit {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 20px auto;
+    height: 40px;
+    width: 100px;
+    border: 2px solid black;
+}

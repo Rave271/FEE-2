@@ -1,0 +1,102 @@
+*{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;  
+    padding: 0   ;
+
+} 
+
+
+
+body{
+    background-image: url("Images/Chalkpad.jpg");
+   background-size: cover;
+   ;
+   
+}
+.red{
+    background-color: red;
+    height: 5px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.cb{
+    float: right;
+    padding-right: 10px;
+}
+
+.Wbox{
+    width: 19rem;
+    height: 37rem;
+    background-color: white;
+    z-index: 1;
+    float: right;
+    margin-right: 300px;
+    position: relative;
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px ;
+    box-sizing: border-box;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+.logo{
+    /* width: auto;
+    height: auto;
+     */
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+    }
+
+.inputtag{
+    margin-bottom: 5px; 
+     
+} 
+.inputtag{
+    border: rgb(50, 117, 172) solid 1.5px;
+    width: 120%;
+    height: 27.5;
+
+
+}
+.inputtag::before{
+    border: rgb(0, 0, 0) solid 1.5px;
+}
+select{
+    width: 120%;
+}
+.undersign,.pp{
+    font-size: small;
+    padding-bottom: 15;
+}
+.logocontainer{
+display: flex;
+align-items: center;
+padding-left: 50px;
+padding-right: 20px;
+gap: 30px;
+padding-bottom: 10;
+}
+
+.MACode{
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+.codeB{
+    width: 55%;
+}
+.undertext{
+    color: rgb(91, 88, 88);
+}
+
